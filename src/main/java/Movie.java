@@ -20,6 +20,10 @@ public class Movie {
     @NotNull
     @Column(name = "TITLE")
     String title;
+
+    @Enumerated(EnumType.ORDINAL)
+    @NotNull
+    @Column(name = "GENRE")
     Genre genre;
 
     @Column(name = "RUNTIME")
@@ -33,5 +37,9 @@ public class Movie {
     @Column(name = "END_DATE")
     @NotNull
     LocalDateTime endDate;
+
+    @Enumerated(EnumType.ORDINAL)
+    @NotNull
+    @Column(name = "AGE_TIMIT")
     AgeLimit ageLimit;
 }
