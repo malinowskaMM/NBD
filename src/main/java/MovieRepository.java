@@ -1,5 +1,5 @@
-import java.util.List;
+import java.util.Map;
 
 public class MovieRepository {
-    List<Movie> movies;
+    Map<Movie, boolean> movies;
 }

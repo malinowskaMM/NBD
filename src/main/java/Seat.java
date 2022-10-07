@@ -1,8 +1,10 @@
 import lombok.Getter;
 
+import java.util.UUID;
+
 @Getter
 public class Seat {
-    int id;
+    UUID uuid;
     int number;
     char row;
 }

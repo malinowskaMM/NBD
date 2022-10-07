@@ -1,5 +1,5 @@
-import java.util.List;
+import java.util.Map;
 
 public class TicketRepository {
-    List<Ticket> tickets;
+    Map<Ticket, boolean> tickets;
 }

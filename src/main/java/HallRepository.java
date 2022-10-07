@@ -1,5 +1,5 @@
-import java.util.List;
+import java.util.Map;
 
 public class HallRepository {
-    List<Hall> halls;
+    Map<Hall, boolean> halls;
 }
