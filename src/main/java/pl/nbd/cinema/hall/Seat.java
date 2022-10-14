@@ -1,9 +1,11 @@
+package pl.nbd.cinema.hall;
+
+import com.sun.istack.NotNull;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Getter;
 
-import javax.validation.constraints.NotNull;
 import java.util.UUID;
 
 @Getter

@@ -1,3 +1,5 @@
+package pl.nbd.cinema.ticket;
+
 import lombok.Getter;
 
 @Getter

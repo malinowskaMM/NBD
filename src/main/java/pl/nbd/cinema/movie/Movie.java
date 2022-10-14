@@ -1,10 +1,8 @@
-import jakarta.persistence.*;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+package pl.nbd.cinema.movie;
 
-import javax.validation.constraints.NotNull;
+import com.sun.istack.NotNull;
+import jakarta.persistence.*;
+import lombok.Getter;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
